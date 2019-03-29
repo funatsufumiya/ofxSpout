@@ -560,7 +560,7 @@ bool Spout::CheckReceiver(char* name, unsigned int &width, unsigned int &height,
 					width  = g_Width;
 					height = g_Height;
 					bConnected = true; // user needs to check for changes
-					return false;
+					return true;
 				} // OpenReceiver OK
 				else {
 					// need what here
